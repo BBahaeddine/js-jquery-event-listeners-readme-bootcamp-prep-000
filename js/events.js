@@ -10,7 +10,7 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
-    this.addClass('')
+    this.addClass('tasty');
   })
 }
 // call functions here
