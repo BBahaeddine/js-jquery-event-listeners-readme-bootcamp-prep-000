@@ -2,6 +2,11 @@
 
 $(document).ready(function(){
 
+// call functions here
+getIt();
+frameIt();
+});
+
 function getIt() {
   $('p').on('click', function() {
     alert('Hey!');
@@ -13,7 +18,3 @@ function frameIt() {
     this.addClass('tasty');
   })
 }
-// call functions here
-window.getIt();
-frameIt();
-});
