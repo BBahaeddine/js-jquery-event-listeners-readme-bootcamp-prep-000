@@ -14,5 +14,6 @@ function frameIt() {
   })
 }
 // call functions here
-
+getIt();
+frameIt();
 });
