@@ -5,6 +5,7 @@ $(document).ready(function(){
 // call functions here
 getIt();
 frameIt();
+pressIt();
 });
 
 function getIt() {
@@ -21,6 +22,8 @@ function frameIt() {
 
 function pressIt() {
   $('input').on('keydown', function(e) {
-    if(e.which === )
+    if(e.which === 71) {
+      alert('user');
+    }
   })
 }
